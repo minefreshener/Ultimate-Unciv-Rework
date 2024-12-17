@@ -4,8 +4,140 @@
         "movementType": "Land"
     },
     {
-        "name": "Infantry",
+        "name": "Civilian Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "Light Infantry",
         "movementType": "Land"
-    }
+    },
+    {
+        "name": "Heavy Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Gunpowder Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Missile Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Spear Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mech",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scouting Infantry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Dragoon",
+        "movementType": "Land"
+    },
+    {
+        "name": "Light Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Gunpowder Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Missile Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Chariot",
+        "movementType": "Land"
+    },
+    {
+        "name": "Motorized Cavalry",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scouting Cavalry",
+        "movementType": "Land"
+        "uniques": ["Transfer Movement to [Great General]"]
+    },
+    {
+        "name": "Light Artillery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Heavy Artillery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Gas Artillery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mobile Artillery",
+        "movementType": "Land"
+    },
+    {
+        "name": "Naval Artillery",
+        "movementType": "Water"
+    },
+    {
+        "name": "Ramming Navy",
+        "movementType": "Water"
+    },
+    {
+        "name": "Gunpowder Navy",
+        "movementType": "Water"
+    },
+    {
+        "name": "Missile Navy",
+        "movementType": "Water"
+    },
+    {
+        "name": "Submarine",
+        "movementType": "Water"
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units", "Transfer Movement to [Great General]"]
+    },
+    {
+        "name": "Aircraft Carrier",
+        "movementType": "Water"
+    },
+    {
+        "name": "Light Aircraft",
+        "movementType": "Air"
+        "uniques": ["Aircraft", "Can see over obstacles", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Heavy Aircraft",
+        "movementType": "Air"
+        "uniques": ["Aircraft", "Can see over obstacles", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Bombing Aircraft",
+        "movementType": "Air"
+        "uniques": ["Aircraft", "Can see over obstacles", "Can perform Air Sweep"]
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Land"
+        "uniques": ["All tiles cost 1 movement", "Can pass through impassable tiles", "Ignores Zone of Control", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "May travel on Water tiles without embarking", "Transfer Movement to [Great General]"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air"
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    },
+    {
+        "name": "Atomic Bomb",
+        "movementType": "Air"
+        "uniques": ["Aircraft"]
+    },
     
 ]
