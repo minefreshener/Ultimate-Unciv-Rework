@@ -109,7 +109,7 @@
 		"rangedStrength": 12,
 		"range": 1,
 		"requiredTech": "Raiding",
-		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>"],
+		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units> <when attacking>"],
 		"attackSound": "throw"
 },
 {
@@ -121,7 +121,7 @@
 		"range": 2,
 		"cost": 42,
 		"requiredTech": "Archery",
-		"uniques": ["[+25]% Strength <vs [Spear Infantry] units>"],
+		"uniques": ["[+25]% Strength <vs [Spear Infantry] units> <when attacking>"],
 		"attackSound": "arrow"
 },
 {
@@ -143,7 +143,8 @@
 		"range": 1,
 		"requiredResource": "Horses",
 		"requiredTech": "The Wheel",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Rough terrain penalty", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Rough terrain penalty", "[-33]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs [Light Infantry] units> <when attacking>", "[+15]% Strength <vs [Missile Infantry] units> <when defending>"],
 		"attackSound": "throw"
 },
 {
@@ -156,7 +157,8 @@
 		"range": 2,
 		"requiredResource": "Horses",
 		"requiredTech": "The Wheel",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Rough terrain penalty", "[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Rough terrain penalty", "[-33]% Strength <vs cities> <when attacking>",
+			"[+15]% Strength <vs [Missile Infantry] units> <when defending>", "[+25]% Strength <vs [Spear Infantry] units> <when attacking>"],
 		"attackSound": "arrow"
 },
 {
@@ -176,7 +178,7 @@
 		"movement": 2,
 		"strength": 6,
 		"requiredTech": "Copper Working",
-		"uniques": ["[+33]% Strength <vs [Light Cavalry] units>", "[+15]% Strength <vs [Heavy Cavalry] units>"],
+		"uniques": ["[+33]% Strength <vs [Light Cavalry] units> <when defending>", "[+15]% Strength <vs [Heavy Cavalry] units> <when defending>"],
 		"attackSound": "nonmetalhit"
 },
 {
@@ -198,7 +200,7 @@
 		"rangedStrength": 14,
 		"range": 1,
 		"requiredTech": "Copper Working",
-		"uniques": ["[+50]% Strength <vs [Heavy Infantry] units>"],
+		"uniques": ["[+50]% Strength <vs [Heavy Infantry] units> <when attacking>"],
 		"attackSound": "throw"
 },
 {
@@ -208,7 +210,7 @@
 		"movement": 2,
 		"strength": 9,
 		"requiredTech": "Bronze Working",
-		"uniques": ["[+33]% Strength <vs [Spear Infantry] units>", "[+50]% Strength <vs [Missile Infantry] units>"],
+		"uniques": ["[+33]% Strength <vs [Spear Infantry] units> <when attacking>", "[+50]% Strength <vs [Missile Infantry] units> <when attacking>"],
 		"attackSound": "metalhit"
 },
 {
@@ -220,7 +222,7 @@
 		"range": 2,
 		"cost": 42,
 		"requiredTech": "Composite Bows",
-		"uniques": ["[+33]% Strength <vs [Spear Infantry] units>"],
+		"uniques": ["[+33]% Strength <vs [Spear Infantry] units> <when attacking>"],
 		"attackSound": "arrow"
 },
 {
@@ -241,7 +243,7 @@
 		"strength": 7,
 		"requiredResource": "Horses",
 		"requiredTech": "Horseback Riding",
-		"uniques": ["[+50]% Strength <vs [Missile Infantry] units>", "[+25]% Strength <vs [Light Infantry] units>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+50]% Strength <vs [Missile Infantry] units> <when attacking>", "[+25]% Strength <vs [Light Infantry] units> <when attacking>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 },
 {
@@ -266,7 +268,18 @@
 		"strength": 5,
 		"requiredResource": "Horses",
 		"requiredTech": "Horseback Riding",
-		"uniques": ["[+33]% Strength <vs [Missile Infantry] units>", "All tiles cost 1 movement", "Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["[+33]% Strength <vs [Missile Infantry] units> <when attacking>", "All tiles cost 1 movement", "Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
 		"attackSound": "horse"
 },
+{
+		"name": "Ancient War Elephant",
+		"unitType": "Heavy Cavalry",
+		"cost": 153,
+		"movement": 3,
+		"strength": 14,
+		"requiredResource": "Ivory",
+		"requiredTech": "Elephant Taming",
+		"uniques": ["Destroys tile improvements when attacking", "[-10]% Strength for enemy [Military] units in adjacent [Land] tiles", "[+100]% Strength <vs [Missile Infantry] units> <when attacking>", "[+100]% Strength <vs [Light Infantry] units> <when attacking>", "Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "elephant"
+}
 ]
