@@ -96,8 +96,8 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 29,
-		"upgradesTo": "Skirmisher",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects"],
+		"upgradesTo": "Ancient Skirmisher",
+		"uniques": ["All tiles cost 1 movement"],
 		"attackSound": "nonmetalhit"
 },
 {
@@ -109,10 +109,11 @@
 		"rangedStrength": 12,
 		"range": 1,
 		"requiredTech": "Raiding",
-		"attackSound": "arrow"
+		"uniques": ["[+25]% Strength <vs [Heavy Infantry] units>"],
+		"attackSound": "throw"
 },
 {
-		"name": "Ancient Archer",
+		"name": "Ancient Levy Archer",
 		"unitType": "Missile Infantry",
 		"movement": 2,
 		"strength": 5,
@@ -120,6 +121,7 @@
 		"range": 2,
 		"cost": 42,
 		"requiredTech": "Archery",
+		"uniques": ["[+25]% Strength <vs [Spear Infantry] units>"],
 		"attackSound": "arrow"
 },
 {
@@ -127,34 +129,31 @@
 		"unitType": "Light Infantry",
 		"cost": 43,
 		"movement": 2,
-		"strength": 7,
-		"cost": 57,
+		"strength": 6,
 		"requiredTech": "Labor Organization",
-		"attackSound": "arrow"
+		"attackSound": "nonmetalhit"
 },
 {
 		"name": "Ancient Chariot",
 		"unitType": "Chariot",
-		"cost": 43,
+		"cost": 103,
 		"movement": 4,
 		"strength": 10,
 		"rangedStrength": 20,
 		"range": 1,
-		"cost": 90,
 		"requiredResource": "Horses",
 		"requiredTech": "The Wheel",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Rough terrain penalty", "[-33]% Strength <vs cities> <when attacking>"],
-		"attackSound": "arrow"
+		"attackSound": "throw"
 },
 {
 		"name": "Ancient Chariot Archer",
 		"unitType": "Chariot",
-		"cost": 43,
+		"cost": 103,
 		"movement": 4,
 		"strength": 8,
 		"rangedStrength": 16,
 		"range": 2,
-		"cost": 87,
 		"requiredResource": "Horses",
 		"requiredTech": "The Wheel",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Rough terrain penalty", "[-33]% Strength <vs cities> <when attacking>"],
@@ -165,9 +164,109 @@
 		"unitType": "Ramming Navy",
 		"movement": 3,
 		"strength": 10,
-		"cost": 53,
+		"cost": 83,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "nonmetalhit"
+},
+{
+		"name": "Ancient Levy Spearman",
+		"unitType": "Spear Infantry",
+		"cost": 43,
+		"movement": 2,
+		"strength": 6,
+		"requiredTech": "Copper Working",
+		"uniques": ["[+33]% Strength <vs [Light Cavalry] units>", "[+15]% Strength <vs [Heavy Cavalry] units>"],
+		"attackSound": "nonmetalhit"
+},
+{
+		"name": "Ancient Spearman",
+		"unitType": "Spear Infantry",
+		"cost": 83,
+		"movement": 2,
+		"strength": 8,
+		"requiredTech": "Masonry",
+		"uniques": ["[+50]% Strength <vs [Light Cavalry] units>", "[+25]% Strength <vs [Heavy Cavalry] units>"],
+		"attackSound": "metalhit"
+},
+{
+		"name": "Ancient Skirmisher",
+		"unitType": "Light Infantry",
+		"cost": 83,
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 14,
+		"range": 1,
+		"requiredTech": "Copper Working",
+		"uniques": ["[+50]% Strength <vs [Heavy Infantry] units>"],
+		"attackSound": "throw"
+},
+{
+		"name": "Ancient Warrior",
+		"unitType": "Heavy Infantry",
+		"cost": 103,
+		"movement": 2,
+		"strength": 9,
+		"requiredTech": "Bronze Working",
+		"uniques": ["[+33]% Strength <vs [Spear Infantry] units>", "[+50]% Strength <vs [Missile Infantry] units>"],
+		"attackSound": "metalhit"
+},
+{
+		"name": "Ancient Archer",
+		"unitType": "Missile Infantry",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 14,
+		"range": 2,
+		"cost": 42,
+		"requiredTech": "Composite Bows",
+		"uniques": ["[+33]% Strength <vs [Spear Infantry] units>"],
+		"attackSound": "arrow"
+},
+{
+		"name": "Ancient Pikeman",
+		"unitType": "Spear Infantry",
+		"cost": 103,
+		"movement": 1,
+		"strength": 8,
+		"requiredTech": "The Phalanx",
+		"uniques": ["[+100]% Strength <vs [Light Cavalry] units>", "[+50]% Strength <vs [Heavy Cavalry] units>", "[+200]% Strength <vs [Chariot] units>", "All tiles cost 1 movement"],
+		"attackSound": "metalhit"
+},
+{
+		"name": "Ancient Cavalry",
+		"unitType": "Light Cavalry",
+		"cost": 63,
+		"movement": 4,
+		"strength": 7,
+		"requiredResource": "Horses",
+		"requiredTech": "Horseback Riding",
+		"uniques": ["[+50]% Strength <vs [Missile Infantry] units>", "[+25]% Strength <vs [Light Infantry] units>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "horse"
+},
+{
+		"name": "Ancient Catapult",
+		"unitType": "Heavy Artillery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 14,
+		"range": 2,
+		"cost": 100,
+		"requiredTech": "Siege Machines",
+		"uniques": ["[+250]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+},
+{
+		"name": "Ancient Scout Cavalry",
+		"unitType": "Scout Cavalry",
+		"cost": 53,
+		"movement": 4,
+		"strength": 5,
+		"requiredResource": "Horses",
+		"requiredTech": "Horseback Riding",
+		"uniques": ["[+33]% Strength <vs [Missile Infantry] units>", "All tiles cost 1 movement", "Can move after attacking","[-33]% Strength <vs cities> <when attacking>"],
+		"attackSound": "horse"
 },
 ]
