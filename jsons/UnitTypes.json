@@ -8,6 +8,10 @@
         "movementType": "Water"
     },
     {
+        "name": "General",
+        "movementType": "Land"
+    },
+    {
         "name": "Light Infantry",
         "movementType": "Land"
     },
