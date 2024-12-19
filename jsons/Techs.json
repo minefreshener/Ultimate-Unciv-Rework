@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Ancient era",
+		"era": "Stone Age",
 		"techCost": 25,
 		"buildingCost": 40,
 		"wonderCost": 96,
@@ -16,7 +16,7 @@
 	},
 	{
 		"columnNumber": 1,
-		"era": "Ancient era",
+		"era": "Stone Age",
 		"techCost": 50,
 		"buildingCost": 48,
 		"wonderCost": 116,
@@ -57,8 +57,8 @@
 	},
 	{
 		"columnNumber": 2,
-		"era": "Ancient era",
-		"techCost": 75,
+		"era": "Stone Age",
+		"techCost": 100,
 		"buildingCost": 58,
 		"wonderCost": 139,
 		"techs": [
@@ -89,28 +89,136 @@
 			{
 				"name": "Archery",
 				"row": 5,
-				"prerequisites": ["Hunting", "Raiding"],
+				"prerequisites": ["Hunting", "Raiding", "toolmaking"],
 				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
 			}
 		]
 	},
 	{
 		"columnNumber": 3,
-		"era": "Ancient era",
-		"techCost": 25,
+		"era": "Stone Age",
+		"techCost": 200,
 		"buildingCost": 40,
 		"wonderCost": 96,
 		"techs": [
+                        {
+				"name": "Pit Mining",
+				"row": 1,
+				"prerequisites": ["Pottery","Agriculture"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Writing",
+				"row": 2,
+				"prerequisites": ["Pottery", "Agriculture"],
+				"uniques": ["[-10]% Culture cost of adopting new Policies"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Copper Age",
+		"techCost": 400,
+		"buildingCost": 40,
+		"wonderCost": 96,
+		"techs": [
+                        {
+				"name": "Copper Working",
+				"row": 1,
+				"prerequisites": ["Pit Mining","Writing"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
 			{
 				"name": "The Wheel",
-				"row": 1,
-        "prerequisites": ["Animal Husbandry", "Pottery"],
+				"row": 2,
+				"prerequisites": ["Pit Mining"],
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 			},
-      {
-				"name": "Pit Mining",
+			{
+				"name": "Calendar",
+				"row": 3,
+				"prerequisites": ["Writing"],
+				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Bronze Age",
+		"techCost": 600,
+		"buildingCost": 40,
+		"wonderCost": 96,
+		"techs": [
+                        {
+				"name": "Bronze Working",
+				"row": 1,
+				"prerequisites": ["Copper Working"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Mathematics",
 				"row": 2,
-				"prerequisites": ["Pottery","Agriculture"],
+				"prerequisites": ["The Wheel", "Calendar"],
+				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
+			},
+			{
+				"name": "Tunnel Mining",
+				"row": 3,
+				"prerequisites": ["Copper Working","The Wheel"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Masonry",
+				"row": 4,
+				"prerequisites": ["Bronze Working", "Raiding", "The Wheel"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Horse Breeding",
+				"cost": 800
+				"row": 5,
+				"prerequisites": ["Animal Husbandry","The Wheel", "Raiding"],
+				"uniques": ["[+10]% [Gold] from Trade Routes"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "Composite Bows",
+				"row": 6,
+				"prerequisites": ["Copper Working", "Archery"],
+				"quote": "'The haft of the arrow has been feathered with one of the eagle's own plumes, we often give our enemies the means of our own destruction' - Aesop"
+			}
+		]
+	}
+		{
+		"columnNumber": 6,
+		"era": "Bronze Age",
+		"techCost": 800,
+		"buildingCost": 40,
+		"wonderCost": 96,
+		"techs": [
+                        {
+				"name": "The Phalanx",
+				"row": 1,
+				"prerequisites": ["Bronze Working","Composite Bows"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 2,
+				"prerequisites": ["Horse Breeding","Bronze Working", "Masonry"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
+			},
+			{
+				"name": "Siege Machines",
+				"row": 3,
+				"prerequisites": ["Bronze Working","Tunnel Mining", "Mathematics"],
+				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Trade",
+				"row": 3,
+				"prerequisites": ["Bronze Working", "Mathematics"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 		]
