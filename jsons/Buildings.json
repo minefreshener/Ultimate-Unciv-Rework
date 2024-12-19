@@ -14,7 +14,7 @@
 		"name": "Relocate Capital",
 		"cost": 15,
 		"hurryCostModifier": 15,
-		"uniques": ["Unavailable <in cities with a [Palace]>", "Unbuildable", "Can be purchased with [Gold] [in all cities] <after discovering [Masonry]>", "Remove [Palace] [in all cities]", "Gain a free [Palace] [in this city]", "Cost increases by [15] per owned city", "Cost increases by [15] when built"]
+		"uniques": ["Unavailable <in cities with a [Leader's Lodge]>", "Unbuildable", "Can be purchased with [Gold] [in all cities] <after discovering [Masonry]>", "Remove [Leader's Lodge] [in all cities]", "Gain a free [Leader's Lodge] [in this city]", "Cost increases by [15] per owned city", "Cost increases by [15] when built"]
   },
 	{
 		"name": "Shelter",
