@@ -1,1 +1,218 @@
-
+[
+{
+		"name": "Leader's Lodge",
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 3,
+		"cost": 0,
+		"cityStrength": 3,
+		"isNationalWonder": true,
+		"uniques": ["Indicates the capital city", "Comment [+15% [Production] and [Gold] in this city during We Love The King Day]", "Remove [Relocate Capital] [in all cities] <hidden from users>", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Relocate Capital",
+		"cost": 15,
+		"hurryCostModifier": 15,
+		"uniques": ["Unavailable <in cities with a [Palace]>", "Unbuildable", "Can be purchased with [Gold] [in all cities] <after discovering [Masonry]>", "Remove [Palace] [in all cities]", "Gain a free [Palace] [in this city]", "Cost increases by [15] per owned city", "Cost increases by [15] when built"]
+  },
+	{
+		"name": "Shelter",
+		"requiredTech": "Labor Organization"
+		"food": 1,
+		"cost": 20,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Raiding Camp",
+		"requiredTech": "Raiding"
+    "cityStrength": 3,
+    "maintenance": 1,
+		"cost": 50,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Pallisade",
+		"requiredTech": "Raiding"
+		"cost": 50,
+		"cityHealth": 5,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Granary",
+		"requiredTech": "Agriculture"
+		"cost": 40,
+		"hurryCostModifier": 25,
+    "percentStatBonus": {"food": 10},
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Shrine",
+		"requiredTech": "Pottery"
+		"faith": 1,
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Bowyer",
+		"requiredTech": "Archery"
+		"cost": 40,
+    "cityStrength": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "[+15]% Production when constructing [Missile Infantry] units [in this city]", "[+15]% Production when constructing [Missile Cavalry] units [in this city]"]
+	},
+  {
+		"name": "Town Quarry",
+		"requiredTech": "Pit Mining"
+    "production": 2,
+		"cost": 50,
+    "maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Wooden Walls",
+		"requiredTech": "Pit Mining"
+		"cost": 60,
+		"cityHealth": 10,
+    "maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Monument",
+		"requiredTech": "Pit Mining"
+    "culture": 2,
+		"cost": 50,
+    "maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Coppersmith",
+		"requiredTech": "Copper Working"
+    "production": 1,
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Pottery Workshop",
+		"requiredTech": "The Wheel"
+    "production": 1,
+    "culture": 1,
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Bronzesmith",
+		"requiredTech": "Bronze Working"
+    "production": 2,
+		"cost": 40,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Engineer's workshop",
+		"requiredTech": "Mathematics"
+    "maintenance": 1,
+		"cost": 50,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Chariot] units [in this city]"]
+	},
+  {
+		"name": "Mining Settlement",
+		"requiredTech": "Tunnel Mining"
+    "production": 2,
+		"cost": 50,
+    "maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Stone Walls",
+		"requiredTech": "Masonry"
+		"cost": 100,
+		"cityHealth": 25,
+    "maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Carving Studio",
+		"requiredTech": "Masonry"
+    "culture": 2,
+		"cost": 70,
+    "maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Science] per [2] population [in this city]", "[+2 Science] per [4] population [in this city]"]
+	},
+  {
+		"name": "Barracks",
+		"requiredTech": "Masonry"
+    "cityStrength": 5,
+    "maintenance": 2,
+		"cost": 60,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "New [{Land} {Military}] units start with [15] Experience [in this city]"]
+	},
+  {
+		"name": "Temple",
+		"requiredTech": "Masonry"
+    "culture": 1,
+    "faith": 2,
+		"cost": 60,
+    "maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+  {
+		"name": "Horse Farm",
+		"requiredTech": "Horse Breeding"
+    "maintenance": 1,
+		"cost": 60,
+    "requiredNearbyImprovedResources": ["Horses"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Horses] tiles [in this city]"]
+	},
+  {
+		"name": "Archery Range",
+		"requiredTech": "Composite Bows"
+		"cost": 50,
+    "maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured", "New [Missile Infantry] units start with [15] Experience [in this city]", "New [Missile Cavalry] units start with [15] Experience [in this city]"]
+	},
+  {
+		"name": "Stables",
+		"requiredTech": "Horseback Riding"
+    "maintenance": 2,
+		"cost": 60,
+    "requiredNearbyImprovedResources": ["Horses"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Light Cavalry] units [in this city]", "[+15]% Production when constructing [Heavy Cavalry] units [in this city]", "[+15]% Production when constructing [Dragoon] units [in this city]"]
+	},
+  {
+		"name": "Siege Works",
+		"requiredTech": "Siege Machines"
+    "maintenance": 2,
+		"cost": 60,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Light Artillery] units [in this city]", "[+15]% Production when constructing [Heavy Artillery] units [in this city]", "[+15]% Production when constructing [Naval Artillery] units [in this city]"]
+	},
+  {
+		"name": "Market",
+		"requiredTech": "Trade"
+		"cost": 40,
+		"hurryCostModifier": 25,
+    "percentStatBonus": {"gold": 10},
+    "gold": 2,
+    "culture": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+]
