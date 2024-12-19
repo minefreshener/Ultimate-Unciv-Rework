@@ -220,6 +220,13 @@
 				"row": 4,
 				"prerequisites": ["Bronze Working", "Mathematics"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
+			},
+			{
+				"name": "Elephant Taming",
+				"cost": 1000
+				"row": 5,
+				"prerequisites": ["Horse Breeding"],
+				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			}
 		]
 	},
