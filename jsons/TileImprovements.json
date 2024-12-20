@@ -33,7 +33,7 @@
   {
 		"name": "Camp",
 		"type": "Improvement",
-		"production": 1,
+		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Hunting",
 		"uniques": ["Does not need removal of [Forest]", "Does not need removal of [Jungle]", "Can only be built to improve a resource", 
@@ -46,6 +46,15 @@
 		"turnsToBuild": 8,
 		"production": 1,
 		"techRequired": "Animal Husbandry",
+		"uniques": ["Improvement", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+13 Gold]"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"type": "Improvement",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
 		"uniques": ["Improvement", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+13 Gold]"],
 		"shortcutKey": "P"
 	},
