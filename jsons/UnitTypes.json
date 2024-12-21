@@ -134,6 +134,11 @@
         "uniques": ["All tiles cost 1 movement", "Can pass through impassable tiles", "Ignores Zone of Control", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "May travel on Water tiles without embarking", "Transfer Movement to [Great General]"]
     },
     {
+        "name": "Derigible",
+        "movementType": "Land"
+        "uniques": ["All tiles cost 1 movement", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast", "May attack when embarked", "May travel on Water tiles without embarking", "Transfer Movement to [Great General]"]
+    },
+    {
         "name": "Missile",
         "movementType": "Air"
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
@@ -142,6 +147,5 @@
         "name": "Atomic Bomb",
         "movementType": "Air"
         "uniques": ["Aircraft"]
-    },
-    
+    }
 ]
