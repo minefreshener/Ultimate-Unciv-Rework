@@ -1,1 +1,163 @@
-
+[
+  	{
+		"name": "Heal Instantly",
+		"uniques": ["[This Unit] heals [100] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["General", "Light infantry", "Heavy Infantry", "Gunpowder Infantry", "Missile Infantry", "Spear Infantry", "Mech", "Scouting Infantry", "Dragoon",
+      "Light Cavalry", "Heavy Cavalry", "Gunpowder Cavalry", "Missile Cavalry", "Chariot", "Motorized Cavalry", "Scouting Cavalry", "Light Artillery", "Heavy Artillery",
+      "gas Artillery", "Mobile Artillery", "Naval Artillery", "Ramming Navy", "Gunpowder Navy","Missile Navy", "Submarine", "Aircraft Carrier", "Light Aircraft", "Heavy Aircraft",
+      "Bombing Aircraft", "Helicopter", "Derigible"],
+        "row": 0,
+        "column": 0
+    },
+  	{
+		"name": "Accuracy I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Missile Infantry", "Gunpowder Infantry", "Gunpowder Cavalry", "Missile Cavalry", "Light Artillery", "Heavy Artillery", "Gas Artillery", "Helicopter", "Derigible",
+      "Missile Navy","Gunpowder Navy", "Naval Artillery", "Mech"],
+        "column": 1,
+        "row": 1
+    },
+    {
+		"name": "Accuracy II",
+    "prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Missile Infantry", "Gunpowder Infantry", "Gunpowder Cavalry", "Missile Cavalry", "Light Artillery", "Heavy Artillery", "Gas Artillery", "Helicopter", "Derigible",
+      "Missile Navy","Gunpowder Navy", "Naval Artillery", "Mech"],
+        "column": 1,
+        "row": 2
+    },
+    {
+		"name": "Accuracy III",
+        "prerequisites": ["Accuracy II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Missile Infantry", "Gunpowder Infantry", "Gunpowder Cavalry", "Missile Cavalry", "Light Artillery", "Heavy Artillery", "Gas Artillery", "Helicopter", "Derigible",
+      "Missile Navy","Gunpowder Navy", "Naval Artillery", "Mech"],
+        "column": 1,
+        "row": 2
+    },
+  	{
+		"name": "Rural Fighting I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Light Infantry", "Light Cavalry", "Heavy Infantry", "Heavy Cavalry", "Light Artillery", "Scouting Infantry", "Scouting Cavalry", "dragoon", "Motorized Cavalry",
+    "Missile Infantry", "Missile Cavalry", "Gunpowder Infantry", "Gunpowder Cavalry", "Mech", "Spear Infantry"],
+        "column": 2,
+        "row": 1
+	},
+    	{
+		"name": "Rural Fighting II",
+    "prerequisites": ["Rural Fighting I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Light Infantry", "Light Cavalry", "Heavy Infantry", "Heavy Cavalry", "Light Artillery", "Scouting Infantry", "Scouting Cavalry", "dragoon", "Motorized Cavalry",
+    "Missile Infantry", "Missile Cavalry", "Gunpowder Infantry", "Gunpowder Cavalry", "Mech", "Spear Infantry"],
+        "column": 2,
+        "row": 2
+	},
+    	{
+		"name": "Rural Fighting III",
+    "prerequisites": ["Rural Fighting II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Light Infantry", "Light Cavalry", "Heavy Infantry", "Heavy Cavalry", "Light Artillery", "Scouting Infantry", "Scouting Cavalry", "dragoon", "Motorized Cavalry",
+    "Missile Infantry", "Missile Cavalry", "Gunpowder Infantry", "Gunpowder Cavalry", "Mech", "Spear Infantry"],
+        "column": 2,
+        "row": 3
+	},
+  {
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Light Infantry", "Light Cavalry", "Heavy Infantry", "Heavy Cavalry", "Scouting Cavalry", "Mech", "Dragoon", "Motorized Cavalry", "Gunpowder Infantry", 
+      "Gunpowder Cavalry", "Helicopter", "Derigible", "Chariot", "Ramming Navy", "Gunpowder Navy"],
+        "column": 3,
+        "row": 1
+	},
+    {
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Light Infantry", "Light Cavalry", "Heavy Infantry", "Heavy Cavalry", "Scouting Cavalry", "Mech", "Dragoon", "Motorized Cavalry", "Gunpowder Infantry", 
+      "Gunpowder Cavalry", "Helicopter", "Derigible", "Chariot", "Ramming Navy", "Gunpowder Navy"],
+        "column": 3,
+        "row": 1
+	},
+    {
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Light Infantry", "Light Cavalry", "Heavy Infantry", "Heavy Cavalry", "Scouting Cavalry", "Mech", "Dragoon", "Motorized Cavalry", "Gunpowder Infantry", 
+      "Gunpowder Cavalry", "Helicopter", "Derigible", "Chariot", "Ramming Navy", "Gunpowder Navy"],
+        "column": 3,
+        "row": 1
+	},
+  	{
+		"name": "Scouting I",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scouting Infantry", "Scouting Cavalry", "Motorized cavalry", "Light Cavalry", "Missile Cavalry", "Gunpowder Cavalry", "Dragoon", "Submarine", "Helicopter",
+      "Derigible", "Gunpowder Navy", "Aircraft Carrier"],
+        "column": 4,
+        "row": 1
+	},
+  	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Scouting Infantry", "Scouting Cavalry", "Derigible", "Helicopter", "Aircraft Carrier"],
+        "column": 4,
+        "row": 2
+	},
+  	{
+		"name": "Scouting III",
+		"prerequisites": ["Scouting II"],
+		"uniques": ["[+1] Sight", "Can see invisible [Land] units"],
+		"unitTypes": ["Scouting Infantry", "Scouting Cavalry", "Derigible", "Aircraft Carrier"],
+        "column": 4,
+        "row": 3
+	},
+  	{
+		"name": "Survivalism I",
+		"uniques": ["[+5] HP when healing"],
+		"unitTypes": ["Scouting Infantry", "Scouting Cavalry", "Derigible", "Bombing Aircraft", "Chariot"],
+        "column": 5,
+        "row": 1
+	},
+  	{
+		"name": "Survivalism II",
+		"prerequisites": ["Survivalism I"],
+		"uniques": ["[+5] HP when healing"],
+		"unitTypes": ["Scouting Infantry", "Scouting Cavalry", "Derigible", "Bombing Aircraft", "Chariot"],
+        "column": 5,
+        "row": 2
+	},
+  	{
+		"name": "Survivalism III",
+		"prerequisites": ["Survivalism II"],
+		"uniques": ["[+5] HP when healing"],
+		"unitTypes": ["Scouting Infantry", "Scouting Cavalry", "Derigible", "Bombing Aircraft", "Chariot"],
+        "column": 5,
+        "row": 3
+	},
+  {
+		"name": "Logistics I",
+    "prerequisites": ["Survivalism III", "Rural Fighting III", "Scouting III", "Shock III", "Accuracy III"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Scouting Infantry", "Scouting Cavalry","Helicopter", "Derigible", "Light Infantry", "Light Cavalry", "Chariot", "Dragoon", "Missile Cavalry", "Mech",
+      "Motorized Cavalry", "Gunpowder Cavalry", "Submarine", "Aircraft Carrier", "Mobile Artillery", "Naval Artillery", "Missile Navy"],
+        "column": 6,
+        "row": 1
+	},
+  	{
+		"name": "Logistics II",
+		"prerequisites": ["Logistics I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Scouting Infantry", "Scouting Cavalry","Helicopter", "Light Infantry", "Light Cavalry", "Dragoon", "Missile Cavalry", "Mech", "Motorized Cavalry", 
+      "Gunpowder Cavalry"],
+        "column": 6,
+        "row": 2
+	},
+  	{
+		"name": "Urban Warfare",
+		"prerequisites": ["Rural Fighting II", "Scouting II", "Survivalism II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Heavy Infantry", "Light Infantry", "Spear Infantry", "Dragoon", "Gunpowder Infantry", "Motorized Cavalry", "Chariot", "Bombing Aircraft"],
+        "column": 3,
+        "row": 1
+	}
+]
